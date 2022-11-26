@@ -9,6 +9,8 @@ import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import '../index.css'
 
 const Home = () => {
+
+    //this is my home component
     const [todos,setTodos]=useState([])
     const [isUpdated, setIsUpdated] = useState(false)
 
